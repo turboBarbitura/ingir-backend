@@ -15,7 +15,7 @@ const ProductSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  description: String, //Описание продукта.
+  description: String, //Описание продукта(ОБЯЗАТЕЛЬНОЕ ПОЛЕ).
   method: String, //Способ применения.
   skinType: {    //Тип кожи(ОБЯЗАТЕЛЬНОЕ ПОЛЕ).
     type: Number,
